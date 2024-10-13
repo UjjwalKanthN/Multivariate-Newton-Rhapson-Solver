@@ -36,7 +36,7 @@ $f'(x) = \frac{f(x)- f(x-h)}{h}$
 Given the step size (h), note that this formula uses the values at and the point at the previous step. As it moves in the backward direction, it is called the backward difference method.
 The given initial conditions for the unknowns are $y_1 = 1, y_2 = 0, y_3 = 0$
 
-Here, we are initializing the ODE's in the form `f'(x) = x_("old value") + dt*f(x) - x_("new value")`
+Here, we are initializing the ODE's in the form $f'(x) = x_{old \ value} + dt*f(x) - x_{new \ value}$
 The general layout of the code is given below: -
 -	Outer Time Integration Loop
 -	Assembling the ODE System
